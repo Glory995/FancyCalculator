@@ -1,0 +1,13 @@
+Body Background Color ==> #7d93e0
+
+Main Section ==> linear-gradient(#7c8fd5,#6279cc)
+
+Division ==> #20b2aa
+
+Multiplication ==> #ffa500
+
+Addition ==> #f08080
+
+Subtraction ==> #7d93e0
+
+Equivalent  ==> #9477af

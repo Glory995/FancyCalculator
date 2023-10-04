@@ -1,0 +1,131 @@
+body{
+
+    background-color: #7d93e0;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.holdingdiv{
+
+    background: linear-gradient(to bottom, #7c8fd5, #6279cc);
+    width: 70%;
+    height: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calculator{
+
+    background-color: #F5F5F5;
+    border-radius: 25px;
+    width: 300px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+
+    
+}
+
+.screen{
+width: 90%;
+
+height: 70px;
+margin-bottom: 20px;
+    
+}
+
+.buttonsdiv{
+
+   
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.buttonsdiv .fourbtn{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonsdiv .fourbtn .button{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.buttonsdiv .fourbtn #special{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.screen input{
+
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.screen input:focus{
+
+    display: none;
+    
+}
+
+
+.div{
+    background-color:  #20b2aa;
+}
+
+.mul{
+
+    background-color: #ffa500;
+}
+
+.add{
+    background-color: #f08080;
+}
+
+.sub{
+    background-color: #7d93e0;
+}
+
+.eqi{
+    background-color: #9477af;
+}
+
+
+
+
+@media screen and (max-width:740px) {
+
+    .calculator{
+
+        width: 80%;
+    }
+    
+}
